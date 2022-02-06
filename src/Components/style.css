@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #515053;
+}
+
+
+.Card{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #1A1B21;
+    height: 750px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.image{
+    width: 300px;
+    height: 317px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.Name{
+    margin: 0;
+    margin-top: 10px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.Job{
+    margin: 0;
+    margin-top: 10px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.Website{
+    margin: 0;
+    margin-top: 10px;
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.Button-holder{
+    display: flex;
+}
