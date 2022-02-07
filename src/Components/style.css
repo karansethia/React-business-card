@@ -22,7 +22,7 @@ body {
 
 .image{
     width: 300px;
-    height: 317px;
+    height: 270px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -40,15 +40,74 @@ body {
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 1rem;
 }
 
 .Website{
     margin: 0;
     margin-top: 10px;
+    margin-bottom: 20px;
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    font-size: 0.7rem;
 }
 .Button-holder{
     display: flex;
 }
+.btn{
+    margin: 0px 20px 20px 20px;
+    padding: 4px 20px;
+    font-size: 0.6rem;
+    border: none;
+    border-radius: 5px;
+}
+.btn > img{
+    width: 16px;
+    margin-bottom: -2px;
+    margin-right: 2px;
+}
+.linkedin{
+    background-color: rgb(126, 151, 221);
+}
+
+.description-container{
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin: 0px 20px;
+}
+
+.des-header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1rem;
+}
+
+.des-para{
+    font-size: 0.7rem;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.icons-container{
+    border-radius: 10px;
+    margin-top: 21px;
+    background-color: rgb(144, 134, 134);
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons-container > img{
+    margin-top: 23px;
+    width: 32px;
+    height: 32px;
+}
+
+.icons-container > img:hover{
+    margin-top: 20px;
+    width: 34px;
+    height: 34px;
+}
+
